@@ -8,7 +8,7 @@ export class Article{
 
 this.title = title;
 this.link = link;
-this.votes = votes;
+this.votes = votes || 0;
 
     }
 }
